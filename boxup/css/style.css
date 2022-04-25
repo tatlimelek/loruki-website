@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+   .topbar {
+     display: block;
+   }
+  body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style-type: none;
+    color: #333;
+   
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+    
+  }
+  
+  h1,
+  h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-weight: bolder;
+  }
+  
+  img {
+    width: 100%;
+  }
+  .hidden {
+    visibility: hidden;
+    height: 0;
+  }
+  .navbar {
+     color: #333;
+     display: flex;
+     font-weight: bold;
+  }
+  .navbar ul {
+      display: flex;
+      padding: 10px ;
+      
+  }
+  .navbar a {
+      padding: 20px;
+      margin: 10px;
+  }
+  .navbar .flex {
+      justify-content: space-around;
+      width: 350px;
+      align-items: center;
+      
+  }
+  .showcase {
+    height: 300px;
+    color: #333;
+    position: relative;
+    background-color:rgba(245, 248, 255, 1);
+  }
+  .showcase h2 {
+    font-size: 30px;
+   font-weight: bolder;
+    
+  }
+  .showcase p {
+    margin: 20px 0;
+    border: 35px;
+  }
+  .showcase .grid {
+    overflow: visible;
+    grid-template-columns: 55% auto;
+    gap: 15px;
+  }
+  .stats {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    border: 150px;
+  }
+  .line {
+
+   width: 200px;
+   margin-top: 0px;
+  }
+  .container {
+    
+      max-width: 1500px;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 0 40px; 
+  }
+  .sgn {
+    height: 30px;
+    width: 80px;
+    background-color: #fff;
+   color: #333;
+    border-radius: 45px  ;
+    border: 2px solid pink;
+    margin-bottom: 40px;
+     
+  }
+  
+  .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+  }
+  .login-btn {
+      text-transform: uppercase;
+      border-radius: 50px;
+      color: cadetblue;
+      border: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100% auto;
+  }
+ .cli {
+   display: flex;
+   justify-content: center;
+  
+ }
+ .plan {
+   text-align: center;
+   padding-bottom: 50px;
+ }
+ .how {
+   width: 200px;
+   padding: 0px;
+ }
+ .l2 {
+   width: 200px;
+   padding-top: -10%;
+ }
+ .showcase2{
+  height: 300px;
+  color: #333;
+  position: relative;
+ 
+ }
+ .showcase2-grid {
+  overflow: visible;
+  grid-template-columns: 55% auto;
+  gap: 15px;
+ }
+ .work {
+max-width: 300px;
+height: auto;
+margin-left: 200px;
+
+ 
+ }
+   .lg2 {
+    font-size: 30px;
+     font-weight: bolder;
+     color: #333;
+   }
+   .showcase2 p {
+    margin: 20px 0;
+   font-weight: bolder;
+    color: #333;
+    display: flex;
+    width: 350px;
+   
+  }
+  .work2 {
+    width: 800px;
+    margin-left: 350px;
+    margin-bottom: 80px;
+    
+  }
+  .work3 {
+    width: 280px;
+    height: auto;
+    margin-left: 200px;
+    
+  }
+  .lg3 {
+    font-size: 30px;
+     font-weight: bolder;
+     color: #333;
+  }
+  .showcase3 p {
+    margin: 20px 0;
+   font-weight: bolder;
+    color: #333;
+    display: flex;
+    width: 350px;
+   
+  }
+
+ .container-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .btn {
+   height: 50px;
+   width: 250px;
+   border-radius: 30px;
+   color: #333;
+   border: 5px solid pink;
+   background-color: white;
+   font-weight: bolder;
+  
+ }
+ .sp {
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   font-weight:bolder;
+  
+ }
+ .card {
+   margin: 10px;
+ }
+  .posts { 
+   
+    background-color:rgba(245, 248, 255, 1);
+  }
+  .posts .flex {
+    flex-wrap: wrap;
+  }
+  .posts .card {
+    text-align: center;
+  margin: 18px 10px 40px;
+  }
+  
+  .posts .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+
+  .btn2 {
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    color: #fff;
+    border: 5px  pink;
+    background:palevioletred
+  }
+  
+ 
+  footer {
+    background-color:rgba(196, 196, 196, 1);
+    color: #333;
+    padding: 4rem 1rem;
+
+  }
+  footer a {
+    color: #333;
+    text-decoration: none;
+
+  }
+  .form-card {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .footer-top {
+    display: flex;
+   }
+ .l {
+    width: 180px;
+    margin-right: auto;
+    justify-content:center ;
+
+  
+ }
+ .footer-social {
+  font-size: 20px;
+  margin-left: 2rem;
+ 
+}
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer-main {
+    display: flex;
+    margin-bottom: 4rem;
+  }
+  .footer-column {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .footer-heding {
+    margin-bottom: 1 rem;
+  }
+  .footer-link {
+    display: block;
+    width: max-content;
+    padding: 5px 10px;
+    margin:  0 auto;
+    
+  }
+  .footer-bottom {
+    display: flex;
+  }
+  .copyright {
+    margin-right: auto;
+  }
+  
+  @media only screen and (max-width:500px) {
+    .posts-main {
+      flex-direction: column;
+    }
+
+  @media only screen and (max-width:720px) {
+    .footer-main {
+      flex-direction: column;
+    }
+  }
+  /* Mobile */
+@media (max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .showcase-form {
+    width: 300px;
+  }
+  
+  }
+ /* Tablets and under */
+@media (max-width: 768px) {
+  .grid,
+  .showcase .grid,
+  .showcase2-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .showcase {
+    height: auto;
+  }
+
+  .showcase-text {
+    text-align: center;
+    margin-top: 40px;
+   
+  }
+
+  .showcase-form {
+    justify-self: center;
+    margin: auto;
+    
+  }
+
+  .posts-main {
+    flex-direction: column-reverse(1 , 1);
+  }
+
+ 
+
+  .work2 img,
+  .work,
+  .work3
+   {
+    justify-self: center;
+  }  
+  
+}
+  }
+
+ 
+
+ 
+
+  
+
+
+
+ 
+
+  
+ 
+
+
+ 
+  
+ 
